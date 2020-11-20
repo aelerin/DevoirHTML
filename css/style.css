@@ -1,0 +1,111 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+header {
+    background-color: #343a40 ;
+    height: auto;
+    width: auto;
+}
+.Header{
+   height: 3em;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   margin-left: 1em;
+
+}
+
+.JumbotronHeader{
+    background-image: url(assets\7ced32d6cfb80d49545444c0a382de3b.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1em;
+
+}
+.imgJumbotron{
+    position: relative;
+    width: 100%;
+    padding-bottom: 1.5em;
+
+}
+
+.mainNav{
+    text-decoration: none;
+    color:white;
+    font-size: 1.2em;
+}
+
+.SecondNav{
+    text-decoration: none;
+    color: #899da0;
+    margin-left: 2em;
+}
+
+.Body{
+
+    display: flex;
+    
+}   
+
+.BodyLeft{
+    width: 10em;
+    padding-right: 10em;
+    margin-top: 3em;
+    margin-left: 0.8em;
+
+}
+
+.NavBodyLeft, a{
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.2em;
+    white-space:nowrap;
+}
+
+
+.BodyCenter{
+    margin-right: 5em;
+}
+.BodyCenter h1 {
+    font-size: 2em;
+}
+
+.BodyCenter p{
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.BodyRight {
+    width: 20vw;
+    margin-top: 10em;
+    margin-bottom: 10em;
+
+}
+
+.BodyRight h1 {
+    font-size: 1.5em;
+}
+
+.BodyRight label {
+    font-size: 1em;
+}
+footer {
+    background-color: #343a40;
+    text-decoration: none;
+    color:white;
+}
+.navFooter {
+    display: flex;
+    justify-content: space-around;
+}
+.navFooter a {
+    
+    text-decoration: none;
+    color:white;
+}
+
